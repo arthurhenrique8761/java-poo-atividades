@@ -13,7 +13,7 @@ public class Program {
 
     public static void main(String[] args) {
 
-        // não entendi a parte do order e do order item, por isso vou deixar esse exercicio de referencia para enums
+        // TERMINAR
 
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
