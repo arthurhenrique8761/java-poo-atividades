@@ -5,6 +5,7 @@ import entities.Product;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Program {
 
@@ -13,7 +14,11 @@ public class Program {
         ArrayList<Product> products = new ArrayList<>();
 
         Locale.setDefault(Locale.US);
-        String path = "C:\\temp\\sold.csv";
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter file full path: ");
+        String st = sc.next();
+        String path = st.replace("\\", "\\\\");
 
         // lê o arquivo linha por linha e salva os dados na lista
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
@@ -31,7 +36,6 @@ public class Program {
             System.out.println("Erro de Leitura: " + e.getMessage());
             System.exit(0);
         }
-
 
         String newPath = "C:\\temp\\summary.csv";
 

@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// URI1010
 public class Ex05 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
