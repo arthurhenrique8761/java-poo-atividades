@@ -1,7 +1,7 @@
 package entities;
 
 public abstract class Pets {
-
+    
     protected String name;
     protected String specie;
     protected Integer age;
