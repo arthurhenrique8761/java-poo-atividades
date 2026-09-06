@@ -6,7 +6,7 @@ public class Program {
 
     public static void main(String[] agrs) {
         System.out.println("Dog:");
-        Pets capeta = new Dog("capeta", "vira-lata", 16, "Osso");
+        Pets capeta = new Dog("Capeta", "Vira-Lata", 16, "Osso");
         System.out.println(capeta);
 
         System.out.println();
