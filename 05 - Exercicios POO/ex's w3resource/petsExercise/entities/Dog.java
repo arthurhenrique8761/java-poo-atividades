@@ -1,7 +1,7 @@
 package entities;
 
 public class Dog extends Pets {
-
+    
     private String favoriteToy;
 
     public Dog(String name, String specie, Integer age, String favoriteToy) {
@@ -26,3 +26,4 @@ public class Dog extends Pets {
         this.favoriteToy = favoriteToy;
     }
 }
+ 

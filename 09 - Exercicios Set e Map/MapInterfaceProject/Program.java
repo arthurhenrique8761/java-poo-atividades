@@ -14,7 +14,7 @@ public class Program {
         System.out.print("Enter file full path: ");
         String st = sc.next();
         String path = st.replace("\\", "\\\\"); // troca a barra inversa unica por uma dupla
-        // String path = "C:\\Users\\chais\\OneDrive\\Área de Trabalho\\MapInterfaceProject\\Register.csv";
+        // String path = "C:\\MapInterfaceProject\\Register.csv";
         System.out.println(path);
         
         Map<String, Integer> map = new LinkedHashMap<>();
